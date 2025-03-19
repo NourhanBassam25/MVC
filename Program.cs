@@ -10,9 +10,9 @@ namespace MVC
             builder.Services.AddControllersWithViews();
             var app = builder.Build();
 
+            app.UseStaticFiles();
             app.UseRouting();
 
-            app.UseStaticFiles();
             //app.UseEndpoints(endpoints =>
             //{
             //    //endpoints.MapGet("/Home", async context =>
