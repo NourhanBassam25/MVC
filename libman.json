@@ -7,8 +7,7 @@
       "destination": "wwwroot/lib/bootstrap/",
       "files": [
         "js/bootstrap.min.js",
-        "css/bootstrap-grid.min.css",
-        "js/bootstrap.bundle.min.js"
+        "css/bootstrap.min.css"
       ]
     }
   ]
